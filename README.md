@@ -77,6 +77,12 @@ The multi-head CNN consists of the following layers:
 | **Adam**  | **ReLU**  | **72.5%**         |
 | **SGD**   | **Leaky ReLU** | **70.8%**         |
 
+![acc](https://github.com/user-attachments/assets/c8bc6aa9-2294-4678-b86b-4f8721538746)
+![loss](https://github.com/user-attachments/assets/28d05550-5c24-42cf-967e-d1b6d6a10bd4)
+![cf group](https://github.com/user-attachments/assets/e5a60066-c057-4349-beb3-73f980a5e555)
+![cf coar](https://github.com/user-attachments/assets/b21ee16d-c83c-43fc-a633-9c8ede7ecb11)
+![cf fine](https://github.com/user-attachments/assets/69fed096-c349-44b7-a51b-7485e18b8414)
+
 ### Observations
 - **Adam optimizer** led to faster convergence.
 - **ReLU performed slightly better** than Leaky ReLU.
@@ -111,6 +117,10 @@ After applying the severity-based loss function, the model showed:
 | Severity 1 errors | 154 | 144 |
 | Severity 2 errors | 259 | 201 |
 | Severity 3 errors | 2865 | 2619 |
+
+![bonus ac loss](https://github.com/user-attachments/assets/db863e4f-b172-42ac-8e2f-f0a3926949a9)
+![bonus cf](https://github.com/user-attachments/assets/4412ba79-b1ac-40e0-80c8-6fc469b7fd98)
+
 
 These results indicate that incorporating misclassification severity into the training process reduces critical errors and improves overall classification reliability.
 
