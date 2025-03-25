@@ -124,34 +124,6 @@ After applying the severity-based loss function, the model showed:
 
 These results indicate that incorporating misclassification severity into the training process reduces critical errors and improves overall classification reliability.
 
-## How to Run
-### Prerequisites
-Ensure you have Python and required libraries installed:
-```bash
-pip install numpy pandas matplotlib seaborn torch torchvision
-```
-
-### Running the Code
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/cifar100-multihead-cnn.git
-   cd cifar100-multihead-cnn
-   ```
-2. Run the training script:
-   ```bash
-   python train.py
-   ```
-3. View results and evaluation metrics.
-
 ## Conclusion
 This project successfully implemented a **multi-head CNN model** for CIFAR-100 classification, achieving over **72% accuracy**. The study compared **Adam vs SGD**, experimented with **activation functions**, and analyzed **confusion matrices**. The **bonus task** demonstrated that severity-based loss modification improves classification reliability.
-
-## License
-This project is licensed under the MIT License.
-
-## Acknowledgment
-This project was completed as part of an assignment at IIT Jodhpur.
-
----
-Feel free to contribute or suggest improvements!
 
